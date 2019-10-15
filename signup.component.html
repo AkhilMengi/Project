@@ -1,0 +1,126 @@
+<div class="bg">
+    <p>.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1">
+            </div>
+
+
+            <div class="d-flex justify-content-center h-100">
+                <div class="card" id="card2">
+                    <div class="card-body">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-4">
+
+                <div class="container">
+                    <div class="d-flex justify-content-center h-100">
+                        <div class="card" id="card1">
+                            <div class="card-header">
+                                <h3>Sign In</h3>
+                                <!-- <div class="d-flex justify-content-end social_icon">
+                      <span><i class="fab fa-facebook-square"></i></span>
+                      <span><i class="fab fa-google-plus-square"></i></span>
+                      <span><i class="fab fa-twitter-square"></i></span>
+                  </div> -->
+                            </div>
+                            <div class="card-body">
+                                <form>
+                                    <div class="input-group form-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="username">
+
+                                    </div>
+                                    <div class="input-group form-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                        </div>
+                                        <input type="password" class="form-control" placeholder="password">
+                                    </div>
+                                    <div class="row align-items-center remember">
+                                        <input type="checkbox">Remember Me
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" value="Login" class="btn float-right login_btn">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="card-footer">
+                                <div class="d-flex justify-content-center links">
+                                    Don't have an account?<label
+                                        onclick="document.getElementById('id01').style.display='block'"
+                                        style="width:auto;">Login</label>
+
+                                    <div id="id01" class="modal">
+
+                                        <form class="modal-content animate" action="/action_page.php" method="post">
+                                            <div class="close">
+                                                <span onclick="document.getElementById('id01').style.display='none'"
+                                                    class="close" title="Close Modal">&times;</span>
+
+                                            </div>
+
+                                            <div class="container">
+                                                <label for="uname"><b>FirstName</b></label>
+                                                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                                                <label for="psw"><b>LastName</b></label>
+                                                <input type="password" placeholder="Enter Password" name="psw" required> 
+
+                                                <label for="psw"><b>Desination</b></label>
+                                                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                                                <label for="psw"><b>E-mail</b></label>
+                                                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                                                <label for="psw"><b>DOB</b></label>
+                                                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                                                <label for="psw"><b>Phone Number</b></label>
+                                                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                                                <button type="submit">Login</button>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" name="remember"> Remember
+                                                    me
+                                                </label>
+                                            </div>
+
+                                            <div class="container" style="background-color:#f1f1f1">
+                                                <button type="button"
+                                                    onclick="document.getElementById('id01').style.display='none'"
+                                                    class="cancelbtn">Cancel</button>
+                                                <span class="psw">Forgot <a href="#">password?</a></span>
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                    <script>
+                                        // Get the modal
+                                        var modal = document.getElementById('id01');
+
+                                        // When the user clicks anywhere outside of the modal, close it
+                                        window.onclick = function (event) {
+                                            if (event.target == modal) {
+                                                modal.style.display = "none";
+                                            }
+                                        }
+                                    </script>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <a href="#">Forgot your password?</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p style="margin-top: 60px">.</p>
+            </div>
+        </div>
+    </div>
+</div>
