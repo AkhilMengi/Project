@@ -1,0 +1,41 @@
+.button {
+	min-width: 15em;
+}
+
+.arrow {
+	background:gray;
+	&:hover {
+		background: darken(gray, 10%);
+	}
+	&:active,
+	&:focus {
+		background: darken(gray, 30%);
+	}
+	&:after {
+		content: "\F054";
+	}
+	&:hover:after {
+		-webkit-animation: bounceright .3s alternate ease infinite;
+		animation: bounceright .3s alternate ease infinite;
+	}
+}
+
+@-webkit-keyframes bounceright {
+	from { -webkit-transform: translateX(0); }
+	to   { -webkit-transform: translateX(3px); }
+}
+
+@-webkit-keyframes wiggle {
+	from { -webkit-transform: rotate(0deg); }
+	to   { -webkit-transform: rotate(30deg); }
+}
+
+@keyframes bounceright {
+	from { transform: translateX(0); }
+	to   { transform: translateX(3px); }
+}
+
+@keyframes wiggle {
+	from { transform: rotate(0deg); }
+	to   { transform: rotate(30deg); }
+}
